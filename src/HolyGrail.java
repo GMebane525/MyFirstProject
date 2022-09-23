@@ -1,13 +1,13 @@
 import java.util.Scanner;
 /**
- * Class HolyGrail prints a conversation the computer has with a user.
- * @version 9/17/2022
+ * Simple I/O project using Scanner
+ * @version 09.23.2022
  * @author 24mebane
  */
 
 public class HolyGrail {
     /**
-     * Main method for class HolyGrail
+     * Main method of class HolyGrail
      * @param args Command-line arguments, if needed.
      */
     public static void main(String[] args) {
@@ -20,17 +20,17 @@ public class HolyGrail {
         System.out.println("Who would cross the Bridge of Death must answer me these\n" +
                 "questions three, ere the other side he see.");
 
-        Scanner in = new Scanner(System.in);            // Assigns new memory address for Scanner
+        Scanner in = new Scanner(System.in);            // Assigns new memory address for local variable 'Scanner'
 
         /*
-        Asks main questions and records your answers
+        Asks main questions and records your answers in their respective local variables
          */
 
-        System.out.println("Question 1: What is your name? ");
+        System.out.print("Question 1: What is your name? ");
         String name = in.nextLine();
-        System.out.println("Question 2: What is your quest? ");
+        System.out.print("Question 2: What is your quest? ");
         String quest = in.nextLine();
-        System.out.println("Question 3: What is your favorite color? ");
+        System.out.print("Question 3: What is your favorite color? ");
         String color = in.nextLine();
 
         /*
