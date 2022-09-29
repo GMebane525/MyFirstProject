@@ -1,6 +1,6 @@
 import java.util.Scanner;
 /**
- *
+ * Input out put using scanner using private methods and algorithms for prime numbers
  * @version 10.03.22
  * @author 24mebane
  */
